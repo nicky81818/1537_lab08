@@ -1,17 +1,12 @@
-* {
+.plus {
+    background-color: tomato;
+}
+.minus {
     background-color: cornflowerblue;
-    font-family: "Comic Sans MS";
 }
-#p1 {
-    background-color: aliceblue;
+.multiply {
+    background-color: green;
 }
-#p2 {
-    background-color: lightpink;
-}
-input {
-    background-color: white;
-}
-.border {
-    border: 2px solid blueviolet;
-    margin: 1rem;
+.divide {
+    background-color: blueviolet;
 }

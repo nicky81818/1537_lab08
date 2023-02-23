@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <title>Week 8</title>
+    <title>Lab 8</title>
 </head>
 <body>
-    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, esse.</p>
-    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, esse.</p>
-    <input type="text" id="thing">
-
-    <ul>
-        <li>Lorem, ipsum.</li>
-        <li id="second">Lorem, ipsum.</li>
-        <li>Lorem, ipsum.</li>
-        <li id="noclass">Lorem, ipsum.</li>
-        <li>Lorem, ipsum.</li>
-    </ul>
+    <label for="first-operand">First operand</label>
+    <input name="first-operand" type="text" id="first-operand">
+    <br>
+    <label for="sec-operand">Second operand</label>
+    <input name="sec-operand" type="text" id="sec-operand">
+    <br>
+    <input type="button" id="plus" value="+">
+    <input type="button" id="minus" value="-">
+    <input type="button" id="multiply" value="*">
+    <input type="button" id="divide" value="/">
+    <p id="result"></p>
+    <h1>History</h1>
+    <div class="history"></div>
 </body>
 </html>
